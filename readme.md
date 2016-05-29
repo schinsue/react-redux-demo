@@ -1,12 +1,8 @@
-# Learn Redux
-
-A simple React + Redux implementation. This will be turned into a free video series once the app is totally fleshed out.
-
 ## Running
 
-First `npm install` to grab all the necessary dependencies. 
+First `docker build -t react-redux .` to build docker img.
 
-Then run `npm start` and open <localhost:7770> in your browser.
+Then run `docker run --rm --name react-redux-demo -it -v /c/Users/Sergio/Documents/Kitematic/react-redux:/usr/src/app -p 8080:8080 react-redux` and open <docker.local:8080> in your browser.
 
 ## Production Build
 
