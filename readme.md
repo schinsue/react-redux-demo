@@ -2,7 +2,7 @@
 
 First `docker build -t react-redux .` to build docker img.
 
-Then run `docker run --rm --name react-redux-demo -it -v /c/Users/Sergio/Documents/Kitematic/react-redux:/usr/src/app -p 8080:8080 react-redux` and open <docker.local:8080> in your browser.
+Then run `docker run --rm --name react-redux-demo -it -v /c/Users/Sergio/Documents/Kitematic/react-redux:/usr/src/app -p 7770:7770 react-redux` and open <docker.local:8080> in your browser.
 
 ## Production Build
 
